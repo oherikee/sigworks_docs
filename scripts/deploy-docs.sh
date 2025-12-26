@@ -12,4 +12,6 @@ git add .
 git commit -m "$MSG" || exit 1
 git push || exit 1
 
+mkdocs gh-deploy
+
 echo "🚀 Commit enviado. Deploy automático em andamento."

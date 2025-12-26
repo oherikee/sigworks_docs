@@ -2,4 +2,6 @@
 
 Documentação do sistema Sigworks
 
-![Fluxo de login](/assets/gifs/welcome.gif)
+<img src="/assets/gifs/welcome.gif"
+     class="doc-img-small doc-img-center"
+     alt="Fluxo de login">

@@ -1,7 +1,9 @@
 site_name: Documentação do Sistema Sigworks
 theme:
-  name: material
+  name: ivory
   language: pt
+extra_css:
+  - styles/extra.css
 nav:
   - Home: index.md
   - Versões:
