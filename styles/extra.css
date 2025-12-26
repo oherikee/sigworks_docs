@@ -1,0 +1,14 @@
+.doc-img-small {
+  width: 400px;
+  max-width: 100%;
+}
+
+.doc-img-medium {
+  width: 600px;
+  max-width: 100%;
+}
+
+.doc-img-center {
+  display: block;
+  margin: 1rem auto;
+}
