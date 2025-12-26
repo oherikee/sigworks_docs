@@ -7,9 +7,9 @@ extra_css:
 nav:
   - Home: index.md
   - Versões:
-      - v1.52:
-          - Visão Geral: versions/v1.52/index.md
-          - Changelog: versions/v1.52/changelog.md
+      - v1.57:
+          - Visão Geral: versions/v1.57/index.md
+          - Changelog: versions/v1.57/changelog.md
   - Módulos:
       - Historico de Versões:
           - Manual de uso: modules/historico_versoes/index.md
