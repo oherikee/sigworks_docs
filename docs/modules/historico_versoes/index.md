@@ -22,7 +22,7 @@ Essa descrição contém:
 - Tópicos de alto nível, sem detalhes técnicos sensíveis
 - O objetivo aqui é apenas informar o que mudou, não como funciona internamente.
 
-<img src="/assets/gifs/v1-57_login.gif"
+<img src="../../assets/gifs/v1-57_login.gif"
      class="doc-img-medium doc-img-center"
      alt="Login">
 
@@ -32,7 +32,7 @@ Após a autenticação no sistema, o usuário passa a ter acesso ao Histórico d
 No canto superior direito da aplicação, foi adicionado um ícone de versões (branches).
 Esse ícone centraliza todas as informações relacionadas às versões do sistema.
 
-<img src="/assets/gifs/v1-57_controle.gif"
+<img src="../../assets/gifs/v1-57_controle.gif"
      class="doc-img-medium doc-img-center"
      alt="Histórico">
 
@@ -52,7 +52,9 @@ Ao clicar nesse botão:
 - A abertura ocorre diretamente na seção de Changelog da versão
 - A documentação é hospedada em uma plataforma dedicada (MkDocs)
 
-📌 (Inserir GIF mostrando o redirecionamento para a documentação aqui)
+<img src="../../assets/gifs/v1-57_docs.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Docs">
 
 ## Conteúdo da documentação
 
