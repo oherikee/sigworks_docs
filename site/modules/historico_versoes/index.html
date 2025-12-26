@@ -54,6 +54,9 @@
 <ul class="subnav">
     <li class="toctree-l3 current"><a class="nav-item current" href="./">Manual de uso</a>
 <ul class="subnav">
+<li class="toctree-l4"><a class="nav-item toc" href="#exibicao-da-versao-na-tela-de-login">Exibição da versão na tela de login</a></li>
+<li class="toctree-l4"><a class="nav-item toc" href="#acesso-ao-historico-completo-apos-o-login">Acesso ao histórico completo após o login</a></li>
+<li class="toctree-l4"><a class="nav-item toc" href="#conteudo-da-documentacao">Conteúdo da documentação</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -76,10 +79,56 @@
 </ul>
 </nav>
                 <div id="content"><h1 id="manual-de-uso">Manual de Uso</h1>
-<p>Tela de visualização de versões e suas documentações.</p>
+<p>Exibição da versão na tela de login e acesso ao histórico completo após o login.</p>
 <blockquote>
-<p>Introduzido na <strong>v1.52</strong></p>
-</blockquote></div>
+<p>Introduzido na <strong>v1.57</strong></p>
+</blockquote>
+<h2 id="exibicao-da-versao-na-tela-de-login">Exibição da versão na tela de login</h2>
+<p>Na tela de login do sistema, na parte inferior da interface, é exibido o número da versão atual do sistema.
+Esse número é visível a qualquer usuário, mesmo sem autenticação.
+Por que a informação é limitada nessa etapa?</p>
+<blockquote>
+<p>Como a tela de login é pública e pode ser acessada por qualquer pessoa, não são exibidos detalhes técnicos ou funcionais completos nessa área.</p>
+</blockquote>
+<p>Essa decisão garante:
+1. Maior segurança
+2. Preservação de informações internas
+3. Exposição apenas do que é estritamente necessário
+4. Descrição rápida ao passar o mouse</p>
+<p>Ao posicionar o cursor do mouse sobre o número da versão na tela de login, é exibida uma descrição breve da versão.
+Essa descrição contém:
+- Um resumo simples das principais mudanças
+- Tópicos de alto nível, sem detalhes técnicos sensíveis
+- O objetivo aqui é apenas informar o que mudou, não como funciona internamente.</p>
+<p>📌 (Inserir GIF demonstrando o hover da versão aqui)</p>
+<h2 id="acesso-ao-historico-completo-apos-o-login">Acesso ao histórico completo após o login</h2>
+<p>Após a autenticação no sistema, o usuário passa a ter acesso ao Histórico de Versões completo.
+No canto superior direito da aplicação, foi adicionado um ícone de versões (branches).
+Esse ícone centraliza todas as informações relacionadas às versões do sistema.</p>
+<p>📌 (Inserir GIF mostrando o ícone e o clique aqui)</p>
+<h3 id="lista-de-versoes-disponiveis">Lista de versões disponíveis</h3>
+<p>Ao clicar no ícone de versões, o sistema exibe:
+1. A lista de todas as versões disponíveis
+2. Organização clara e cronológica
+3. Identificação visual da versão atual
+4. Cada versão pode ser selecionada individualmente para consulta.
+5. Acesso à documentação da versão
+6. Dentro da visualização de uma versão específica, o usuário encontra um botão de acesso à documentação oficial da versão.</p>
+<p>Ao clicar nesse botão:</p>
+<ul>
+<li>O usuário é direcionado automaticamente para a documentação pública</li>
+<li>A abertura ocorre diretamente na seção de Changelog da versão</li>
+<li>A documentação é hospedada em uma plataforma dedicada (MkDocs)</li>
+</ul>
+<p>📌 (Inserir GIF mostrando o redirecionamento para a documentação aqui)</p>
+<h2 id="conteudo-da-documentacao">Conteúdo da documentação</h2>
+<p>A documentação da versão contém:
+- Changelog detalhado da versão
+- Descrição das funcionalidades adicionadas, alteradas ou corrigidas
+- Links internos para:
+    - Módulos relacionados
+    - Manuais mais aprofundados
+    - Explicações complementares quando necessário</p></div>
                 <footer>
     <div class="footer-buttons">
         <div class="previous"><a href="../../versions/v1.57/changelog/" title="Changelog"><span>Previous</span></a></div>

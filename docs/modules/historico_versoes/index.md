@@ -22,7 +22,9 @@ Essa descrição contém:
 - Tópicos de alto nível, sem detalhes técnicos sensíveis
 - O objetivo aqui é apenas informar o que mudou, não como funciona internamente.
 
-📌 (Inserir GIF demonstrando o hover da versão aqui)
+<img src="/assets/gifs/v1-57_login.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Login">
 
 ## Acesso ao histórico completo após o login
 
@@ -30,7 +32,9 @@ Após a autenticação no sistema, o usuário passa a ter acesso ao Histórico d
 No canto superior direito da aplicação, foi adicionado um ícone de versões (branches).
 Esse ícone centraliza todas as informações relacionadas às versões do sistema.
 
-📌 (Inserir GIF mostrando o ícone e o clique aqui)
+<img src="/assets/gifs/v1-57_controle.gif"
+     class="doc-img-medium doc-img-center"
+     alt="Histórico">
 
 ### Lista de versões disponíveis
 
