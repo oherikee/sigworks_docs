@@ -1,0 +1,15 @@
+site_name: Documentação do Sistema Sigworks
+theme:
+  name: material
+  language: pt
+nav:
+  - Home: index.md
+  - Versões:
+      - v1.52:
+          - Visão Geral: versions/v1.52/index.md
+          - Changelog: versions/v1.52/changelog.md
+  - Módulos:
+      - Historico de Versões:
+          - Manual de uso: modules/historico_versoes/index.md
+plugins:
+  - search
